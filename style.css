@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #131519;
+    color: white;
+    margin: auto;
+  
+}
+
+.container-main{
+    max-width:1000px;
+    margin: auto;
+}
+
+/* Second layer background */
+.main{
+    margin: auto;
+    margin-top: 5%;
+    width: 45%;
+    max-width: 400px;
+    border-radius: 10px;
+    background-color: #212932;
+    padding: 20px;
+}
+
+.info-in{
+    margin-left: 5%;
+}
+
+/* fist image */
+.firstimg{
+   border: #131519;
+   background-color:#131519;
+   border: #131519 10px solid;
+   border-radius: 20px;
+   max-width: 100%;
+   margin-left: 5%;
+}
+
+/* first information */
+.info1{
+    margin-left: 5%;
+    color: #4F5661;
+}
+
+/* rating scores buttons */
+.rate{
+background-color:#131519;
+/* border: #131519 10px solid; */
+border-radius: 50px;
+border-style: none;
+color: white;
+padding:20px;
+height: auto;
+margin-top: 5%;
+cursor: pointer;
+margin-left: 3%;
+}
+
+/* mouseover rating number color changed*/
+.rate:focus{
+    background-color:orangered;
+    
+}
+
+/* Submit button */
+.submitbtn{
+    margin: auto;
+}
+
+/* Submit button design */
+.clickhere{
+   margin: auto;
+   width: 80%;
+   max-width: 300px;
+   color: #EDC8A2;
+   font-weight: bolder;
+   height: 30px;
+   border: #FDFFFC 2px solid;
+   border-radius: 20px;
+   margin-top: 5%;
+   cursor: pointer;
+   margin-left: 5%;
+   
+   
+}
+
+/* External content design */
+.externalContainer{
+    margin: auto;
+    text-align: center;
+    margin-top: 2em;
+    width: 80%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+    background-color: #212932;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/* Second image design */
+
+.secondimg{
+   border-radius: 20px;
+   max-width: 100%;
+}
+
+/* result rating design */
+.ratingResult{
+    margin: auto;
+    background-color: #292E35;
+    width:12em ;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: bolder;
+    color:orange;
+    margin-top: 5%;
+}
+
+/* Externalcontent paragragh color changed  */
+.info{
+    color:#4D545F;
+}
+
+.externalContainer{
+    display: none;
+}
+
+/* Media queries for responsiveness */
+@media only screen and (max-width: 600px) {
+    .container-main, .main, .firstimg, .rate, .clickhere, .externalContainer, .ratingResult {
+        width: 90%;
+        max-width: none;
+    }
+}
+
+
+
+
